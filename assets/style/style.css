@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#login {
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.login-box input {
+    width: 80%;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+}
+
+.login-box button {
+    width: 80%;
+    height: 50px;
+    background-color: orange;
+    border: none;
+}
+
+#all-product {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: orange;
+}
+
+.card {
+    width: 300px !important;
+    height: 380px !important;
+    margin: 10px;
+    background-color: orange !important;
+}
+
+.card img {
+    width: 300px;
+    height: 210px;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    background-color: orange;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+    position: relative;
+}
+.store {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    z-index: 666666;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    display: none;
+}
+.store p {
+    width: 90%;
+    height: 50px;
+    margin: 10px 0;
+    background-color: yellow;
+}
+
+i {
+    cursor: pointer;
+}
+
+sup {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
